@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+/*@charset "UTF-8";/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: #26a69a;
+}
+.parallax-container .parallax img {
+    display:inline;
+}
+.parallax-container {
+    min-height: 480px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+.input-field label {
+    color: #000;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #000;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #000;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    color: #000;
+}
+#map {
+    width: 100%;
+    height: 100%;
+}
+#controls {
+    position: absolute;
+    top: 1.5em;
+    right: 1.5em;
+    z-index: 10;
+    background: #fff;
+    padding: 1em 2em;
+    opacity: .8;
+    border-top: solid .4em #444;
+    border-bottom: solid .4em #444;
+}
+#controls label {
+    display: block;
+    margin: 1em 0;
+}
+#controls label span {
+    display: inline-block;
+    min-width: 3.5em;
+}
+#controls label input {
+    font-family: 'Montserrat';
+    font-size: 12pt;
+    padding-bottom: .2em;
+    width: 10em;
+    border: none;
+    border-bottom: solid 1px #999;
+    color: #000;
+    outline: none;
+    webkit-appearance: none;
+}
+#controls p {
+    text-align: right;
+    font-size: 80%;
+    margin: 1em 0 .5em 0;
+}
+#controls p.error {
+    color: #b00;
+}
+
+#map {
+    width: 100%;
+    height: 90%;
+}
+
+#taxi-config-panel{
+    position:absolute; 
+    z-index:999; 
+    opacity: 0.95;
+}
+
+#end_point {
+    visibility: hidden;
+
+}
+#submit_end_point {
+    visibility: hidden;
+
+}
